@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Prosto One', cursive;
+    font-weight: 200;
+    color: rgb(15, 26, 26);
+}
+
+h1,
+h2 {
+    font-family: 'Prosto One', cursive;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#cover-text2 {
+    font-size: 130%;
+    font-family: 'Prosto One', cursive;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+
+    width: 400px;
+    height: 150px;
+
+    padding-top: 40px;
+    padding: right 30px;
+
+    background-color: rgba(255, 160, 122, 0.6);
+    bottom: 80px;
+    left: 30px;
+
+    position: absolute;
+    border: 5px solid rgba(51, 156, 243, 0.4);
+    border-radius: 5px;
+
+
+}
+
+/*main header*/
+
+#head {
+        color: darkslategray;
+        float: left;
+        font-size: 250%;
+        margin-left: 30px;
+}
+
+/*navigation list*/
+
+#menu {
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+
+
+}
+
+#head ,#menu {
+    line-height: 75px;
+
+}
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 1px inset rgb(41, 221, 221);
+}
+
+/*popular types of yoga*/
+
+#style-head {
+    text-align: center;
+}
+
+
+
+#types {
+    background-image: url(../images/matching\ sky\ yoga.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auoto;
+    overflow: hidden;
+}
+
+#first {
+
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#second {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#third {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+
+}
+
+
+
+/*footer*/
+
+footer {
+    height: 150px;
+
+}
+
+.social-net {
+    text-align: center;
+}
+
+.social-net>li {
+    display: inline;
+}
+
+.social-net i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: black;
+}
+
+/*signup form*/
+
+.signup-form {
+    color: antiquewhite;
+    float: left;
+    padding: 30px;
+    color: rgb(15, 26, 26);
+    background-image: url(../images/wendy-hero-67818.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    overflow: hidden;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 1200px) {
+    #menu {
+        width :65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+}
