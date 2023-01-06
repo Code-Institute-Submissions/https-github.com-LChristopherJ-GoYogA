@@ -9,7 +9,7 @@
 body {
     font-family: 'Prosto One', cursive;
     font-weight: 200;
-    color: rgb(15, 26, 26);
+    
 }
 
 h1,
@@ -21,26 +21,7 @@ h3 {
 
 }
 
-#cover-text2 {
-    font-size: 130%;
-    font-family: 'Prosto One', cursive;
-    text-transform: capitalize;
-    letter-spacing: 4px;
 
-    width: 400px;
-    height: 150px;
-
-    padding-top: 40px;
-
-    background-color: rgba(255, 160, 122, 0.6);
-    bottom: 20px;
-    left: 30px;
-
-    position: absolute;
-    border: 5px solid rgba(51, 156, 243, 0.4);
-    border-radius: 5px;
-    bottom: -10px;
-}
 
 /*main header*/
 
@@ -66,7 +47,6 @@ h3 {
 #head,
 #menu {
     line-height: 75px;
-
 }
 
 #menu a {
@@ -77,62 +57,57 @@ h3 {
     border-bottom: 1px inset rgb(41, 221, 221);
 }
 
-/*popular types of yoga*/
+/*benefits of yoga*/
 
 .whole-benefits-section {
 
-    background-image: url(../images/blue\ ripple.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     overflow: hidden;
- 
-    border: 3px solid rgba(51, 156, 243, 0.4);;
+
+    border: 3px solid rgba(51, 156, 243, 0.4);
+    ;
     border-radius: 25px;
- 
+}
+
+#ben-head {
+
+    text-decoration: underline;
+    color: darkslategray;
+    text-transform: capitalize;
+    font-size: 250%;
+    float: left;
+    padding-left: 30px;
     
- 
- }
- 
- 
- #ben-head {
- 
-     text-decoration: underline;
-     color: darkslategray;
-     text-transform: capitalize;
-     font-size: 250%;
-     padding-bottom: 30px;
-     text-align: center;
- }
- 
- 
- 
- 
- #benefits-div {
-     float: right;
-     padding-right: 30px;
-     width: 33%;
- }
- 
- #social-div {
- 
-     width: 33%;
-     padding-right: 30px;
-     margin: 0 auto;
- }
- 
- #mental-div {
-     float: left;
-     padding-left: 30px;
- }
- 
+}
+
+#head , #menu {
+    line-height: 75px;
+}
+#physical {
+    float: right;
+    padding-right: 30px;
+    width: 33%;
+}
+
+#social {
+
+    width: 33%;
+    padding-right: 30px;
+    margin: 0 auto;
+}
+
+#mental {
+    float: left;
+    padding-left: 30px;
+}
 
 /*footer*/
 
 footer {
     height: 150px;
-
 }
 
 .social-net {
@@ -157,9 +132,10 @@ footer {
     float: left;
     padding: 30px;
     color: rgb(15, 26, 26);
-    background-image: url(../images/wendy-hero-67818.jpg);
+    background-image: url(../images/bottom\ ripple.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
     width: 100%;
     overflow: hidden;
