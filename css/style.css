@@ -40,6 +40,7 @@ h3 {
 }
 
 #menu {
+    color: darkslategray;
     font-weight: 300;
     letter-spacing: 3px;
 }
@@ -133,17 +134,17 @@ footer {
 /*signup form*/
 
 .signup-form {
-    color: antiquewhite;
+    color: royalblue;
     float: left;
     padding: 30px;
     color: rgb(15, 26, 26);
-    background-image: url(../images/bottom\ ripple.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../images/wendy-hero-67818.jpg);
+    background-position: bottom;
     background-size: cover;
-    background-position: center;
-
+    background-repeat: no-repeat;
     width: 100%;
-    overflow: hidden;
+    
+
 }
 
 /*media queries*/
